@@ -1,29 +1,29 @@
 {
-  "name": "WhatsAsenaDuplicated",
-  "version": "1.2.3",
-  "description": "WhatsAsena project - a Whatsapp userbot helping to improve your Whatsapp experience.",
-  "main": "./WhatsAsenaDuplicated/bot.js",
+  "name": "Felix-Userbot",
+  "version": "1.1.0",
+  "description": "A WhatsApp Helper Bot Written By TOXIC-DEVIL.",
+  "main": "./Felix-Userbot/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phaticusthiccy/WhatsAsenaDuplicated.git"
+    "url": "git+https://github.com/TOXIC-DEVIL/Felix-Userbot.git"
   },
   "keywords": [
     "whatsapp",
-    "bot",
-    "ai",
+    "userbot",
+    "felix",
     "asena",
     "WhatsAsena"
   ],
-  "author": "AsenaDev / Yusuf Usta",
-  "developer": "AsenaDev / @phaticusthiccy",
+  "author": "Abhinav / TOXIC-DEVIL",
+  "developer": "Abhinav / @TOXIC-DEVIL",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/phaticusthiccy/WhatsAsenaDuplicated/issues"
+    "url": "https://github.com/TOXIC-DEVIL/Felix-Userbot/issues"
   },
-  "homepage": "https://github.com/phaticusthiccy/WhatsAsenaDuplicated#readme",
+  "homepage": "https://github.com/TOXIC-DEVIL/Felix-Userbot#readme",
   "dependencies": {
     "@adiwajshing/baileys": "3.5.0",
     "@lh2020/speedtest-net": "^2.1.1",
