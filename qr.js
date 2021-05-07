@@ -8,7 +8,7 @@ WhatsAsena - Yusuf Usta
 
 const chalk = require('chalk');
 const {WAConnection} = require('@adiwajshing/baileys');
-const {StringSession} = require('./whatsasena/');
+const {StringSession} = require('./felix/');
 const fs = require('fs');
 
 async function whatsAsena () {
