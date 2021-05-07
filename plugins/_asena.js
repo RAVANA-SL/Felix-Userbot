@@ -42,7 +42,7 @@ const Lang = Language.getString('_asena');
             );
         
             await message.client.sendMessage(
-                message.jid,'𝐅𝐞𝐥𝐢𝐱 𝐔𝐬𝐞𝐫𝐛𝐨𝐭\n\n' + CMD_HELP + '\n\n𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 𝗧𝗼𝘅𝗶𝗰 𝗗𝗲𝘃𝗶𝗹, MessageType.text
+                message.jid,'𝐅𝐞𝐥𝐢𝐱 𝐔𝐬𝐞𝐫𝐛𝐨𝐭\n\n' + CMD_HELP + '\n\n𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 𝗧𝗼𝘅𝗶𝗰 𝗗𝗲𝘃𝗶𝗹', MessageType.text
             );    
         } else {
 
@@ -74,7 +74,7 @@ const Lang = Language.getString('_asena');
             );
             if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
             await message.client.sendMessage(
-                message.jid,'𝐅𝐞𝐥𝐢𝐱 𝐔𝐬𝐞𝐫𝐛𝐨𝐭\n\n' + CMD_HELP + '\n\n𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 𝗧𝗼𝘅𝗶𝗰 𝗗𝗲𝘃𝗶𝗹, MessageType.text
+                message.jid,'𝐅𝐞𝐥𝐢𝐱 𝐔𝐬𝐞𝐫𝐛𝐨𝐭\n\n' + CMD_HELP + '\n\n𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 𝗧𝗼𝘅𝗶𝗰 𝗗𝗲𝘃𝗶𝗹', MessageType.text
             );    
         }
     }));
