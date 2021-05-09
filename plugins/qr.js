@@ -16,7 +16,7 @@ const got = require("got");
 const QR_DESC = "It Converts Text To Qr Code"
 const NEED_TEXT = "*Must Enter Some Words*"
 
-Asena.addCommand({pattern: 'qr ?(.*)', fromMe: false, desc: QR_DESC}, (async (message, match) => {
+Asena.addCommand({pattern: 'qr ?(.*)', fromMe: true, desc: QR_DESC}, (async (message, match) => {
 
     if (match[1] === '') return await message.sendMessage(NEED_TEXT);
 
