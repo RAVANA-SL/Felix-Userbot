@@ -1,7 +1,7 @@
 ### IMPORTANT
 
 **50% Chance To ban your number so just try this in your risk, If your number got banned We are not responsible**
-----------------------------------------------------------------
+
 
 ## Thanks for Everything 
 ### We will always remember you..
@@ -14,11 +14,11 @@
 ## Felix-Userbot
 
 **Concept = Obrained from WhatsAsenaDuplicated**
-----------------
+--------
 **Package Name = Felix-Userbot**
-----------------
+--------
 **Made By TOXIC DEVIL**
-----------------
+--------_
 
 ```
 Felix; Felix UserBot, Felix-Userbot yazılımı temsil eden adlardır, yazının devamında birbiri yerine kullanılabilir.
@@ -86,11 +86,11 @@ $ node qr.js
 
 ##
 
-
+--------------------------------
 ### ⚠️ Warning! 
-```
+
 Due to Userbot; Your WhatsApp account may be banned.
 This is an open source project, you are responsible for everything you do. 
 Absolutely, Felix executives do not accept responsibility.
 By establishing the Felix, you are deemed to have accepted these responsibilities.
-```
+--------------------------------
