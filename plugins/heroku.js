@@ -23,7 +23,7 @@ const heroku = new Heroku({
 
 let baseURI = '/apps/' + Config.HEROKU.APP_NAME;
 
-Asena.addCommand({pattern: 'degis ?(.*)', fromMe: true, desc: Lang.DEGİS_DESC}, (async (message, match) => {
+/* Asena.addCommand({pattern: 'degis ?(.*)', fromMe: true, desc: Lang.DEGİS_DESC}, (async (message, match) => {
 
     if (match[1] == '' && message.reply_message) {
         return await message.client.sendMessage(message.jid, Lang.DEGİS_NONE, MessageType.text); 
@@ -150,7 +150,7 @@ Asena.addCommand({pattern: 'degis ?(.*)', fromMe: true, desc: Lang.DEGİS_DESC},
     else if ((!match[1] == 'unblock' || !match[1] == 'add' || !match[1] == 'block' || !match[1] == 'mute' || !match[1] == 'unmute' || !match[1] == 'afk' || !match[1] == 'alive' || !match[1] == 'demote' || !match[1] == 'promote' || !match[1] == 'ban' || !match[1] == 'kickme') && !message.reply_message) {
         return await message.client.sendMessage(message.jid, Lang.WR, MessageType.text);
     }
-}));
+})); */
 
 
 Asena.addCommand({pattern: 'restart', fromMe: true, desc: Lang.RESTART_DESC}, (async (message, match) => {
@@ -176,9 +176,6 @@ Asena.addCommand({pattern: 'shutdown', fromMe: true, desc: Lang.SHUTDOWN_DESC}, 
         await message.client.sendMessage(message.jid,error.message, MessageType.text);
     });
 }));
-
-
-if (Config.WORKTYPE == 'private') {
 
     Asena.addCommand({pattern: 'dyno', fromMe: true, desc: Lang.DYNO_DESC}, (async (message, match) => {
 
@@ -210,7 +207,7 @@ if (Config.WORKTYPE == 'private') {
             });        
         });
     }));
-}
+/* }
 else if (Config.WORKTYPE == 'public') {
 
     Asena.addCommand({pattern: 'dyno', fromMe: false, desc: Lang.DYNO_DESC}, (async (message, match) => {
@@ -273,7 +270,7 @@ else if (Config.WORKTYPE == 'public') {
             });        
         });
     }));
-}
+} */
 
 Asena.addCommand({pattern: 'setvar ?(.*)', fromMe: true, desc: Lang.SETVAR_DESC}, (async(message, match) => {
 
