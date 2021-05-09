@@ -18,7 +18,7 @@
 **Package Name = Felix-Userbot**
 --------
 **Made By TOXIC DEVIL**
---------_
+---------
 
 ```
 Felix; Felix UserBot, Felix-Userbot yazılımı temsil eden adlardır, yazının devamında birbiri yerine kullanılabilir.
