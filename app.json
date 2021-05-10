@@ -24,7 +24,7 @@
         "HANDLERS": {
             "description": "For commands.",
             "required": true,
-            "value": "^[!]"
+            "value": "^[.]"
         },
         "HEROKU_API_KEY": {
             "description": "Type Your Heroku API Key.",
