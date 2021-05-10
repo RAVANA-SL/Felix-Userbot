@@ -1,8 +1,3 @@
-### IMPORTANT
-
-**50% Chance To ban your number so just try this in your risk, If your number got banned We are not responsible**
-
-
 ## Thanks for Everything 
 ### We will always remember you..
 
