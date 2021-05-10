@@ -19,7 +19,7 @@ Asena.addCommand({pattern: 'udpate', fromMe: true, dontAddCommandList: true}, (a
 Asena.addCommand({pattern: 'hi', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
     
 
-    await message.sendMessage('Hello! I'm Felix!! Type !felix For All Commands');
+    await message.sendMessage('Hello!');
 
 }));
 
@@ -485,7 +485,7 @@ Asena.addCommand({pattern: 'asnea', fromMe: true, dontAddCommandList: true}, (as
 
 }));
 
-Asena.addCommand({pattern: 'awena', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: 'asnwa', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
     await message.sendMessage('*🔎 Found!*');
 
     await message.sendMessage('.asena');
@@ -510,5 +510,12 @@ Asena.addCommand({pattern: 'udpsye', fromMe: true, dontAddCommandList: true}, (a
     await message.sendMessage('*🔎 Found!*');
 
     await message.sendMessage('.update');
+
+}));
+
+Asena.addCommand({pattern: 'xemdia', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    await message.sendMessage('*🔎 Found!*');
+
+    await message.sendMessage('.xmedia');
 
 }));
