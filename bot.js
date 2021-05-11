@@ -599,7 +599,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     '\n*Felix an error has occurred!*'+
                                     '\n_Join Our WhatsApp Group For Support :_https://chat.whatsapp.com/FdxBLbt1BcT3NKbVKvNGcD' +
                                     '\n_Aslo you can join our 2nd group:_ https://chat.whatsapp.com/KMHpUACludA5XIcPncFkl1'+
-                                    '*Error:* ```' + error + '```\n\n'
+                                    '\n\n*Error:* ```' + error + '```\n\n'
                                     , MessageType.text, {detectLinks: false}
                                 );
                                 if (error.message.includes('URL')) {
@@ -711,8 +711,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     );
                                 }
                                 else {
-                                    return await conn.sendMessage(conn.user.jid, '*🙇🏻 Sorry, I Couldnt Read This Error! 🙇🏻*\n_Join Here And Ask Your Doubts, Questions And Discuss Those Errors_\nhttps://chat.whatsapp.com/FdxBLbt1BcT3NKbVKvNGcD' +
-                                        '\n_You can write to our support group for more help._'
+                                    return await conn.sendMessage(conn.user.jid, '*🙇🏻 Sorry, I Couldnt Read This Error! 🙇🏻*\n_You can write to our support group for more help._' +
+                                        '\n_Join Here And Ask Your Doubts, Questions And Discuss Those Errors_\nhttps://chat.whatsapp.com/FdxBLbt1BcT3NKbVKvNGcD'
                                         , MessageType.text
                                     );
                                 }    
