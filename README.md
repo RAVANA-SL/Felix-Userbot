@@ -1,7 +1,3 @@
-/* [**NO SUPPORT, WILL BE REOPENED SOON**](https://github.com/TOXIC-DEVIL/Felix-Userbot#readme)
------------------------------ /*
-
-
 
 ## Thanks for Everything 
 ### We will always remember you..
@@ -15,28 +11,26 @@
 
 **Concept = Obrained from WhatsAsenaDuplicated**
 --------
-**Package Name = Felix-Userbot**
+**Package.json = Felix-Userbot**
 --------
 **Made By TOXIC DEVIL**
 ---------
 
 ```
-Felix; Felix UserBot, Felix-Userbot yazılımı temsil eden adlardır, yazının devamında birbiri yerine kullanılabilir.
-
-Felix-Userbot - felix Userbot Açık Kaynaklı geliştirmeye açık bir yazılımdır. 
-Yanlış ve amacı dışında kullanımdan doğabilecek tüm sonuçlardan kullanıcı sorumludur. 
-Açık kaynakje olduğundan isteyen herkes yazılımı kopyalayıp eklemeler çıkarmalar yapabilir,
-kendi özelleştirdiği biçimde kullanabilir. Ayrıca eklenti (plugin) desteği, 
-orijinal yazılıma kullanıcıların kendi yazdıkları eklentileri yükleyerek istedikleri 
-biçimde kullanmaları özelliğini sağlar.
-Kullanımı tamamen kullanıcının sorumluluğundadır.
-Botu amacı dışında kullanmak, açık bir şekilde yasaklanmanıza sebeb olur.
-Asena Userbot yalnızca bir altyapıdır. Nasıl sonradan yüklenen programlarla 
-yapılan işlerden işletim sistemi sorumlu değilse, 
-WhatsAsena da kullanıcıların kullanım amacı ve yönteminden sorumlu değildir.
-WhatsAsena'yı para karşılığı pazarlamak, kullanıma sunmak yahut herhangi bir maddi değere sahip
-birşey ile satışa sunmak kesinlikle yasaktır. Doğabilecek tüm yasal soruşturmalardan
-kullanıcı sorumludur.
+Felix-Userbot - felix Userbot വികസനത്തിനുള്ള ഓപ്പൺ സോഴ്‌സ് സോഫ്റ്റ്വെയറാണ് ഇത്.
+ദുരുപയോഗം, ദുരുപയോഗം എന്നിവയിൽ നിന്ന് ഉണ്ടാകാനിടയുള്ള എല്ലാ പരിണതഫലങ്ങൾക്കും ഉപയോക്താവ് ഉത്തരവാദിയാണ്.
+ഇത് ഓപ്പൺ സോഴ്‌സ് ആയതിനാൽ ആർക്കും സോഫ്റ്റ്വെയർ പകർത്താനും ചേർക്കാനും നീക്കംചെയ്യാനും കഴിയും,
+നിങ്ങൾക്ക് ഇഷ്ടാനുസൃതമാക്കിയ രീതിയിൽ ഇത് ഉപയോഗിക്കാൻ കഴിയും. കൂടാതെ, പ്ലഗ്-ഇൻ പിന്തുണ,
+യഥാർത്ഥ സോഫ്റ്റ്വെയറിലേക്ക് ഉപയോക്താക്കൾ എഴുതിയ ആഡ്-ഓണുകൾ ഇൻസ്റ്റാൾ ചെയ്യുന്നതിലൂടെ.
+അവ ഒരു വിധത്തിൽ ഉപയോഗിക്കാനുള്ള കഴിവ് നൽകുന്നു.
+ഇതിന്റെ ഉപയോഗം ഉപയോക്താവിന്റെ ഏക ഉത്തരവാദിത്തമാണ്.
+ബോട്ട് ദുരുപയോഗം ചെയ്യുന്നത് എക്സ്പ്രസ് നിരോധനത്തിന് കാരണമാകും.
+അസീന യൂസർബോട്ട് ഒരു ഇൻഫ്രാസ്ട്രക്ചർ മാത്രമാണ്. പോസ്റ്റ്-ഇൻസ്റ്റാൾ ചെയ്ത പ്രോഗ്രാമുകൾ എങ്ങനെ
+ചെയ്ത ജോലികൾക്ക് ഓപ്പറേറ്റിംഗ് സിസ്റ്റം ഉത്തരവാദിയല്ലെങ്കിൽ,
+ഉപയോക്താക്കളുടെ ഉദ്ദേശിച്ച ഉപയോഗത്തിനും രീതിക്കും വാട്ട്‌സ്അസെന ഉത്തരവാദിയല്ല.
+പണത്തിനായി വാട്ട്‌സ്അസീന മാർക്കറ്റിംഗ്, ലഭ്യമാക്കുക അല്ലെങ്കിൽ ഏതെങ്കിലും പണമൂല്യമുള്ളത്
+ഒന്നും വിൽക്കാൻ കർശനമായി നിരോധിച്ചിരിക്കുന്നു. ഉണ്ടാകാനിടയുള്ള എല്ലാ നിയമ അന്വേഷണങ്ങളിൽ നിന്നും
+ഉപയോക്താവിന് ഉത്തരവാദിത്തമുണ്ട്.
 
 Felix-Userbot - Felix Userbot is Open Source software open to development. 
 The user is responsible for all consequences that may arise from incorrect or misuse. 
