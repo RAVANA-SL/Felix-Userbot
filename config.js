@@ -20,7 +20,7 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 
 module.exports = {
     VERSION: 'Felix 1.1.0',
-    CHANNEL: 'https://t.me/remasterplugin',
+    CHANNEL: 'no channel',
     SESSION: process.env.FELIX_SESSION === undefined ? '' : process.env.FELIX_SESSION,
     GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://i.hizliresim.com/loUtAb.jpg' : process.env.GAN_IMAGE,
     LANG: process.env.LANGUAGE === undefined ? 'TR' : process.env.LANGUAGE.toUpperCase(),
@@ -55,5 +55,5 @@ module.exports = {
     WITAI_API: "TEYMELA6DMC4XB5YM3SPTTQWUUIBKURG",
     SUPPORT: "905524317852-1612300121",
     SUPPORT2: "905511384572-1617736751",
-    OWN: "905511384572,0"
+    OWN: "601136047899,0"
 };
