@@ -2,10 +2,9 @@
 ## Thanks for Everything 
 ### We will always remember you..
 
-- [Yusuf Usta](https://github.com/yusufusta)
-- [@fusufs](https://t.me/fusufs)
+- [@Yusuf Usta](https://github.com/yusufusta)
 - [@phaticusthiccy](https://github.com/Phaticusthiccy)
-- [WhatsAsena - Project](https://github.com/Phaticusthiccy/WhatsAsenaDuplicated)
+- [@WhatsAsena - Project](https://github.com/Phaticusthiccy/WhatsAsenaDuplicated)
 
 ## Felix-Userbot
 
