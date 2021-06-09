@@ -248,7 +248,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                     ); 
                 }
             }
-            else { await conn.sendMessage(conn.user.jid, '*=====[MESSAGE FROM TOXIC DEVIL]=====*\n\n```Your Bot Is Currently Active 🥳🥳```\n\n```You Can Type !felix or !list now for all commands```\n\n*Thanks For Using Felix UserBot 💌*', MessageType.text);
+            else { await conn.sendMessage(conn.user.jid, '*=====[MESSAGE FROM TOXIC DEVIL]=====*\n\n```Your Bot Is Currently Active 🥳🥳```\n\n```You Can Type .felix now for all commands```\n\n*Thanks For Using Felix UserBot 💌*', MessageType.text);
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
                 if (commits.total === 0) {
@@ -365,14 +365,16 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
             // Görüşürüz Mesajı
             var gb = await getMessage(msg.key.remoteJid, 'goodbye');
             if (gb !== false) {
-                await conn.sendMessage(msg.key.remoteJid, gb.message, MessageType.text);
+                var pp = await message.client.getProfilePicture(message.jid.includes('-') ? message.data.participant : message.jid ); } catch { pp = await message.client.getProfilePicture(); }
+                await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => { await conn.sendMessage(msg.key.remoteJid, res.data, MessageType.image, { caption: gb.message, }); });
             }
             return;
         } else if (msg.messageStubType === 27 || msg.messageStubType === 31) {
             // Hoşgeldin Mesajı
             var gb = await getMessage(msg.key.remoteJid);
             if (gb !== false) {
-                await conn.sendMessage(msg.key.remoteJid, gb.message, MessageType.text);
+                var pp = await message.client.getProfilePicture(message.jid.includes('-') ? message.data.participant : message.jid ); } catch { pp = await message.client.getProfilePicture(); }
+                await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => { await conn.sendMessage(msg.key.remoteJid, res.data, MessageType.image, { caption: gb.message, }); });
             }
             return;
         }
