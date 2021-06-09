@@ -365,7 +365,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
             // Görüşürüz Mesajı
             var gb = await getMessage(msg.key.remoteJid, 'goodbye');
             if (gb !== false) {
-                var pp = await message.client.getProfilePicture(message.jid.includes('-') ? message.data.participant : message.jid ); } catch { pp = await message.client.getProfilePicture(); }
+                let pp
+            try { pp = await message.client.getProfilePicture(msg.key.remoteJid.includes('-') ? message.data.participant : msg.key.remoteJid, ); } catch { pp = await message.client.getProfilePicture(); }
                 await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => { await conn.sendMessage(msg.key.remoteJid, res.data, MessageType.image, { caption: gb.message, }); });
             }
             return;
@@ -373,7 +374,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
             // Hoşgeldin Mesajı
             var gb = await getMessage(msg.key.remoteJid);
             if (gb !== false) {
-                var pp = await message.client.getProfilePicture(message.jid.includes('-') ? message.data.participant : message.jid ); } catch { pp = await message.client.getProfilePicture(); }
+                let pp
+            try { pp = await message.client.getProfilePicture(msg.key.remoteJid.includes('-') ? message.data.participant : msg.key.remoteJid, ); } catch { pp = await message.client.getProfilePicture(); }
                 await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => { await conn.sendMessage(msg.key.remoteJid, res.data, MessageType.image, { caption: gb.message, }); });
             }
             return;
