@@ -362,21 +362,17 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
 
         // ==================== Greetings ====================
         if (msg.messageStubType === 32 || msg.messageStubType === 28) {
-            // Görüşürüz Mesajı
+            // see you message
             var gb = await getMessage(msg.key.remoteJid, 'goodbye');
             if (gb !== false) {
-                let pp
-            try { pp = await message.client.getProfilePicture(msg.key.remoteJid.includes('-') ? message.data.participant : msg.key.remoteJid, ); } catch { pp = await message.client.getProfilePicture(); }
-                await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => { await conn.sendMessage(msg.key.remoteJid, res.data, MessageType.image, { caption: gb.message, }); });
+                await conn.sendMessage(msg.key.remoteJid, fs.readFileSync("/root/WhatsAsenaPublic/media/gif/VID-20210518-WA0060.mp4"), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message});
             }
             return;
         } else if (msg.messageStubType === 27 || msg.messageStubType === 31) {
-            // Hoşgeldin Mesajı
+            // Welcome message
             var gb = await getMessage(msg.key.remoteJid);
             if (gb !== false) {
-                let pp
-            try { pp = await message.client.getProfilePicture(msg.key.remoteJid.includes('-') ? message.data.participant : msg.key.remoteJid, ); } catch { pp = await message.client.getProfilePicture(); }
-                await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => { await conn.sendMessage(msg.key.remoteJid, res.data, MessageType.image, { caption: gb.message, }); });
+                await conn.sendMessage(msg.key.remoteJid, fs.readFileSync("/root/WhatsAsenaPublic/media/gif/VID-20210518-WA0059.mp4"), MessageType.video, {mimetype: Mimetype.gif, caption: gb.message});
             }
             return;
         }
